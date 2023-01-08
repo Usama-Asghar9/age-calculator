@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Age Calculator</title>
+</head>
+
+<body>
+
+    <!-- Background & animion & navbar & title -->
+    <div class="container-fluid">
+        <!-- Background animtion-->
+        <div class="background">
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+
+            <div style="text-align: center; margin-top: 13%;">
+                <h1>CALCULATE YOUR AGE</h1><br><br>
+                <input id="searchData" required type="date"><br>
+                <button id="searchbtn" type="submit" onclick="userCalculatedAge()"><b>CALCULATE</b></button>
+            </div><br>
+            <div class="row" id="user_Age"></div>
+        </div>
+
+    </div>
+
+
+
+    <script src="age-calc.js"></script>
+</body>
+
+</html>
